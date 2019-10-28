@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "node_modules",
+        "module": "commonjs",
+        "paths": {
+            "@assets/*": ["../src/assets/*"],
+            "@actions/*": ["../src/actions/*"],
+            "@components/*": ["../src/components/*"],
+            "@containers/*": ["../src/containers/*"],
+            "@common/*": ["../src/components/common/*"],
+            "@migrations/*": ["../src/migrations/*"],
+            "@networking/*": ["../src/networking/*"],
+            "@sagas/*": ["../src/sagas/*"],
+            "@selectors/*": ["../src/selectors/*"],
+            "@statics/*": ["../src/statics/*"]
+        }
+    },
+    "exclude": [
+    ]
+}

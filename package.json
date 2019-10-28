@@ -1,0 +1,69 @@
+{
+  "name": "indywork-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/core": "^4.2.0",
+    "@fullcalendar/daygrid": "^4.2.0",
+    "@fullcalendar/interaction": "^4.2.0",
+    "@fullcalendar/moment": "^4.2.0",
+    "@fullcalendar/moment-timezone": "^4.2.0",
+    "@fullcalendar/react": "^4.2.0",
+    "@fullcalendar/timegrid": "^4.2.0",
+    "@mars/heroku-js-runtime-env": "^3.0.2",
+    "actioncable": "^5.2.3",
+    "ajv": "^6.10.0",
+    "formik": "^1.5.7",
+    "fuse.js": "^3.4.5",
+    "lodash": "^4.17.15",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.25",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-actioncable-provider": "^2.0.0",
+    "react-art": "^16.8.6",
+    "react-calendar": "^2.19.0",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-modal": "^3.6.1",
+    "react-native-web": "^0.11.4",
+    "react-numeric-input": "^2.2.3",
+    "react-redux": "^7.0.3",
+    "react-responsive-carousel": "^3.1.49",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^5.3.2",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "styled-components": "^4.2.1",
+    "underscore": "^1.9.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "cra-alias": "^4.13.13",
+    "eslint-plugin-prettier": "^3.1.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.1",
+    "sass-loader": "^7.1.0"
+  },
+  "scripts": {
+    "start": "cra-alias start",
+    "build": "cra-alias build",
+    "test": "cra-alias test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

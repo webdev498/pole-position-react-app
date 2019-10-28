@@ -1,0 +1,29 @@
+.slider-wrapper {
+    background-color: black;
+    border-radius: 6px 6px 0 0;
+}
+
+.thumbs-wrapper {
+    margin: 0 !important;
+    background-color: #272741;
+    border-radius: 0 0 6px 6px;
+}
+
+.thumbs-wrapper .thumb {
+    border: 3px solid transparent !important;
+    margin: 0 !important;
+}
+
+.thumbs-wrapper .selected {
+    border: 3px solid #6488DA !important;
+}
+
+.dot {
+    background-color: transparent !important;
+    border: 1px solid white;
+    opacity: 1 !important;
+}
+
+.dot.selected {
+    background-color: white !important;
+}

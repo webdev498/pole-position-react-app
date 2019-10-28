@@ -1,0 +1,116 @@
+.rate-user-active-row {
+  background-color: #272741;
+}
+.rate-user-active-row .rate-user-info-wrap-left .rate-user-username {
+  color: white;
+}
+.rate-user-rating-button-wrap {
+  align-self: flex-end;
+  flex: 0.1;
+}
+.rate-user-info-wrap-right {
+  align-items: flex-start;
+  margin-left: 10px;
+  flex: 0.65;
+}
+.rate-user-info-right-rating-wrap {
+  align-items: left;
+  flex-direction: column;
+  display: flex;
+}
+.rate-user-image-wrap {
+  align-items: center;
+  margin-right: 5px;
+  flex: 0.25;
+}
+.rate-user-username {
+  font-size: 16px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.rate-user-info-wrap-left {
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rate-user-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 10px;
+  border-bottom: 2px solid #272741;
+}
+.rate-user-row:hover {
+  border: 2px solid #272741;
+}
+.rate-user-last-shift {
+  font-size: 16px;
+  color: rgb(174, 174, 174);
+  font-size: 14px;
+  font-weight: 500;
+  flex: 0.5;
+}
+.rate-user-last-shift-header {
+  font-size: 16px;
+  color: rgb(174, 174, 174);
+  font-size: 16px;
+  font-weight: 600;
+  flex: 0.45;
+}
+.rate-user-info-last-shift-wrap {
+  align-items: left;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rate-user-guide {
+  font-size: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.rate-user-info-right-rating-row {
+  align-items: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+}
+.rate-user-info-right-rating-header {
+  color: white;
+  flex: 0.45;
+}
+.rate-user-info-right-rating-spacer {
+  color: white;
+  flex: 0.05;
+}
+.rate-user-info-right-rating-component {
+  flex: 0.5;
+}
+
+.rate-user-rating-button {
+  width: 90px;
+}
+.ratings-content-right-loading-wrap{
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+.ratings-content-right-loading{
+  height: 160px;
+  width: 100%;
+  background-color: #272741;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}

@@ -1,0 +1,176 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+@import '@statics/Colors.scss';
+
+/* Section Header (Date Title) */
+.fc-header-toolbar h2 {
+  font-weight: normal;
+}
+
+/* Table Container */
+.fc-ltr {
+  color: white;
+}
+.fc-body > tr > td.fc-widget-content {
+  border-color: transparent;
+}
+
+/* All Day Section */
+.fc-widget-content > .fc-day-grid, hr.fc-widget-header {
+  display: none;
+}
+
+/* Calendar Header */
+.fc-head-container {
+  &, & td, .fc-row, thead {
+    border-color: transparent !important;
+  }
+}
+.fc-day-header {
+  span {
+    color: white;
+    font-weight: normal;
+    font-size: 1.25rem;
+  }
+}
+
+/* Header Columns (aka Day Columns) */
+.fc-widget-header > table > thead > tr > th {
+  border-color: transparent;
+}
+.fc-bg {
+  & > table > tbody > tr > td {
+    border-color: $IndyWorkGray_d;
+  }
+  /* Today Column */
+  .fc-today {
+    background: transparent !important;
+  }
+}
+
+/* Header Rows (aka Time Rows) */
+td.fc-time {
+  border-color: transparent;
+}
+.fc-time-grid .fc-slats .fc-minor td {
+  border: none;
+}
+.fc-slats {
+  span {
+    color: $IndyWorkGray_d;
+  }
+  & > table > tbody > tr > td:nth-child(2) {
+    border-width: 3px;
+    border-color: $IndyWorkNavBar;
+    border-left: none;
+  }
+}
+
+/* Closed Hours */
+.fc-nonbusiness {
+  background: repeating-linear-gradient(
+    -45deg,
+    $IndyWorkRed_ll,
+    $IndyWorkRed_ll,
+    transparent 4px,
+    transparent 8px
+  );
+  border: 1px solid $IndyWorkRed_ll;
+  border-radius: 4px;
+  margin: 3px;
+  &:after {
+    content: "CLOSED";
+    background-color: $IndyWorkNavBar;
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+}
+.fc-dayGridMonth-view {
+  .fc-nonbusiness {
+    &:after {
+      display: none;
+    }
+  }
+}
+.fc-dayGrid-view .fc-week-number, .fc-dayGrid-view .fc-day-number {
+  padding: 5px 10px 0 0;
+}
+
+
+/* Shifts */
+.fc-event {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  box-shadow: none;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 3px 3px 5px  $IndyWorkPurpleNew;
+  }
+}
+.fc-not-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+.fc-mirror {
+  border-left: 5px solid $IndyWorkGray_d;
+  background-color: $IndyWorkGray_d_50;
+}
+.fc-shift-unfilled {
+  border-left: 5px solid $IndyWorkRed_l;
+  background-color: $IndyWorkRed_l_50;
+}
+.fc-shift-action-needed {
+  border-left: 5px solid $IndyWorkPurpleNew;
+  background-color: $IndyWorkPurpleNew_50;
+}
+.fc-shift-filled {
+  border-left: 5px solid $IndyWorkGreen_ll;
+  background-color: $IndyWorkGreen_ll_50;
+}
+.fc-medium-font {
+  font-size: 1.15rem;
+  font-weight: bold;
+  .fc-content {
+    margin: 5px 10px;
+  }
+}
+.fc-small-font {
+  font-size: 0.85rem;
+  .fc-content {
+    margin: 3px 5px;
+  }
+}
+
+/* More events/shifts popover */
+.fc-popover {
+  border: 1px solid $IndyWorkPurpleNew !important;
+  border-radius: 2px;
+  background-color: $IndyWorkPurple_dd !important;
+  .fc-header {
+    background-color: $IndyWorkNavBar !important;
+    color: white;
+  }
+}
+
+/* Month day circle */
+.fc-dayGridMonth-view {
+
+  .fc-day-top:not(.fc-other-month) > span {
+    padding: 0;
+    margin: 5px 10px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid lightblue;
+  }
+}

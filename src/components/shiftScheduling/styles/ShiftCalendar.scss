@@ -1,0 +1,124 @@
+@import '@statics/Colors.scss';
+
+.react-calendar {
+  background: transparent;
+  border: 1px solid $IndyWorkPurple_d;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 420px;
+}
+.react-calendar__tile {
+  border-radius: 0px;
+  margin: 5px;
+  color: white;
+}
+.react-calendar__tile:disabled, .react-calendar__navigation__arrow:disabled {
+  background-color: transparent !important;
+  color: $IndyWorkGray_d;
+  cursor: not-allowed;
+}
+time {
+  color: white;
+}
+button.react-calendar__tile:enabled:hover,
+button.react-calendar__tile:enabled:focus {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 1px dashed white;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  
+  background-color: transparent;
+}
+.react-calendar__navigation {
+  background-color: transparent;
+}
+.react-calendar__navigation__label {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+}
+.react-calendar__navigation__label:disabled {
+  background-color: transparent !important;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.react-calendar__navigation__arrow {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+}
+.react-calendar__navigation__prev-button {
+  color: white;
+  background-color: transparent;
+}
+.react-calendar__tile.today {
+  border: 1px dashed $IndyWorkPurpleNew;
+}
+.react-calendar__tile--active {
+  background: transparent;
+  border: 1px solid $IndyWorkPurpleNew !important;
+  color: $IndyWorkPurpleNew;
+  font-weight: bold;
+}
+.react-calendar button:enabled:hover {
+  border: 1px solid white;
+}
+.react-calendar button{
+  border: 1px dashed transparent;
+}
+.DotContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.dot-red {
+  background-color: $Error;
+  border: 1px solid $Error;
+  border-radius: 8px;
+  width: 6px;
+  height: 6px;
+  margin: 1px;
+}
+.dot-green {
+  background-color: $IndyWorkGreen_d;
+  border: 1px solid $IndyWorkGreen_d;
+  border-radius: 8px;
+  width: 6px;
+  height: 6px;
+  margin: 1px;
+}
+.dot-blue {
+  background-color: $IndyWorkBlue;
+  border: 1px solid $IndyWorkBlue;
+  border-radius: 8px;
+  width: 6px;
+  height: 6px;
+  margin: 1px;
+}
+.react-calendar__month-view__days__day {
+  color: white;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: white;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: gray;
+}
+.react-calendar__year-view__months__month {
+  color: white;
+}
+.react-calendar__tile--now {
+  border: 1px dashed $IndyWorkPurpleNew !important;
+}
+.react-calendar__tile--hasActive, .react-calendar__tile--active {
+  border: 1px solid $IndyWorkPurpleNew !important;
+  background-color: transparent;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  color: $IndyWorkPurpleNew;
+  text-decoration: none !important;
+}

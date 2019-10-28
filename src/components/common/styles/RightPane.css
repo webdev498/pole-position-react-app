@@ -1,0 +1,10 @@
+.right-panel-header{
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+}
+.right-panel-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

@@ -1,0 +1,96 @@
+// Authentication
+export const LOG_IN = 'LOG_IN';
+export const LOG_OUT = 'LOG_OUT';
+export const UPDATE_USER = 'UPDATE_USER';
+
+// Business Calendar
+export const SET_BUSINESS_CALENDAR = 'SET_BUSINESS_CALENDAR';
+export const SET_CALENDAR_DATE = 'SET_CALENDAR_DATE';
+
+// Shifts
+export const SET_SHIFTS = 'SET_SHIFTS';
+export const ADD_SHIFT = 'ADD_SHIFT';
+export const SET_SHIFT = 'SET_SHIFT';
+
+export const GET_SHIFTS = 'GET_SHIFTS';
+export const GET_SHIFT_CALENDAR_DATA = 'GET_SHIFT_CALENDAR_DATA';
+export const GET_SHIFT_DETAILS = 'GET_SHIFT_DETAILS';
+export const CREATE_SHIFT = 'CREATE_SHIFT';
+export const UPDATE_SHIFT = 'UPDATE_SHIFT';
+export const DELETE_SHIFT = 'DELETE_SHIFT';
+export const ACCEPT_SHIFT_APPLICATION = 'ACCEPT_SHIFT_APPLICATION';
+export const REJECT_SHIFT_APPLICATION = 'REJECT_SHIFT_APPLICATION';
+export const UNDO_SHIFT_APPLICATION = 'UNDO_SHIFT_APPLICATION';
+
+// Applications
+export const SET_APPLICATIONS     = 'SET_APPLICATIONS';
+export const UPDATE_APPLICATION   = 'UPDATE_APPLICATION';
+export const SET_APPLICATION_META = 'SET_APPLICATION_META';
+
+// messaging
+export const UPDATE_CONVERSATION_FIELD = 'UPDATE_CONVERSATION_FIELD';
+
+// myAccount
+export const SET_BUSINESS_INFO = 'SET_BUSINESS_INFO';
+
+// Employee constants
+export const SET_EMPLOYEES = 'SET_EMPLOYEES';
+export const ADD_EMPLOYEE = 'ADD_EMPLOYEE';
+
+// Block Dancers
+export const BLOCK_DANCER = 'BLOCK_DANCER';
+export const UNBLOCK_DANCER = 'UNBLOCK_DANCER';
+
+// Filter Dancers
+export const SET_FILTERS = 'SET_FILTERS';
+export const ADD_FILTER = 'ADD_FILTER';
+export const REMOVE_FILTER = 'REMOVE_FILTER';
+
+// View Layout
+export const CHANGE_CLUBS_LAYOUT = 'CHANGE_CLUBS_LAYOUT';
+export const CHANGE_DANCERS_LAYOUT = 'CHANGE_DANCERS_LAYOUT';
+export const CHANGE_SCHEDULE_CALENDAR_LAYOUT = 'CHANGE_SCHEDULE_CALENDAR_LAYOUT';
+
+export const SET_VERIFICATIONS = 'SET_VERIFICATIONS';
+export const REMOVE_VERIFICATION = 'REMOVE_VERIFICATION';
+
+// Api
+export const CLEAR_CACHE = 'CLEAR_CACHE';
+export const REQUEST = 'REQUEST';
+export const LOADING = 'LOADING';
+export const SUCCESS = 'SUCCESS';
+export const FAILURE = 'FAILURE';
+export const RESPONSE = 'RESPONSE';
+export const INVALIDATE = 'INVALIDATE';
+
+// Businesses
+export const GET_BUSINESSES = 'GET_BUSINESSES';
+export const DELETE_BUSINESS = 'DELETE_BUSINESS';
+export const CREATE_BUSINESS = 'CREATE_BUSINESS';
+export const UPDATE_BUSINESS = 'UPDATE_BUSINESS';
+export const UPDATE_BUSINESS_PHOTO = 'UPDATE_BUSINESS_PHOTO';
+
+// Dancers
+export const GET_DANCERS = 'GET_DANCERS';
+export const GET_EVENTS = 'GET_EVENTS';
+export const GET_PROFILE_OPTIONS = 'GET_PROFILE_OPTIONS';
+export const GET_REQUIRED_DOCUMENTS = 'GET_REQUIRED_DOCUMENTS';
+
+// Owners
+export const GET_OWNERS = 'GET_OWNERS';
+
+// Invite Dancers
+export const INVITE_DANCER_TO_SHIFT = 'INVITE_DANCER_TO_SHIFT';
+export const INVITE_DANCER_GENERAL = 'INVITE_DANCER_GENERAL';
+export const INVITE_DANCER_TO_EVENT = 'INVITE_DANCER_TO_EVENT';
+
+// Groups
+export const GET_GROUPS = 'GET_GROUPS';
+export const GET_GROUP = 'GET_GROUP';
+export const CREATE_GROUP = 'CREATE_GROUP';
+export const UPDATE_GROUP = 'UPDATE_GROUP';
+export const DELETE_GROUP = 'DELETE_GROUP';
+
+// Conversations
+export const GET_CONVERSATIONS = 'GET_CONVERSATIONS';
+export const UPDATE_MESSAGE_AS_READ = 'UPDATE_MESSAGE_AS_READ';
